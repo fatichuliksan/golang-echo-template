@@ -1,0 +1,20 @@
+settings:
+  legacy:
+    force: true
+    interval: 0s
+schema:
+  - name: go-template
+    path: .
+    commands:
+      run:
+        status: true
+    watcher:
+      extensions:
+        - go
+      paths:
+        - /
+      ignored_paths:
+        - .git
+        - .realize
+        - vendor
+        - storage
