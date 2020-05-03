@@ -11,5 +11,5 @@ run `go mod vendor` to download 3rd party library
 
 hot reload reference
 - [Realize](https://github.com/oxequa/realize)
-- [Compile Daemon](https://github.com/githubnemo/CompileDaemon
+- [Compile Daemon](https://github.com/githubnemo/CompileDaemon)
 
