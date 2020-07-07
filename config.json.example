@@ -1,0 +1,67 @@
+{
+    "app": {
+        "name": "project",
+        "debug": true,
+        "host": "localhost:8080",
+        "port": 7082,
+        "secret": "",
+        "ssl": false
+    },
+    "database": {
+        "postgre": {
+            "db_master": {
+                "host": "localhost",
+                "port": 5432,
+                "database": "scm-master",
+                "username": "postgres",
+                "password": "root"
+            },
+            "db_wms": {
+                "host": "localhost",
+                "port": 5432,
+                "database": "scm-wms",
+                "username": "postgres",
+                "password": "root"
+            },
+            "db_oms": {
+                "host": "localhost",
+                "port": 5432,
+                "database": "scm-oms",
+                "username": "postgres",
+                "password": "root"
+            }
+        },
+        "mysql": {
+            "db_name": {
+                "host": "localhost",
+                "port": 5432,
+                "database": "scm-master",
+                "username": "postgres",
+                "password": "root"
+            }
+        }
+    },
+    "ftp": {
+        "cdn": {
+            "host": "127.0.0.1",
+            "username": "user",
+            "password": "pass"
+        }
+    },
+    "jwt": {
+        "secret": "secret"
+    },
+    "kafka": {
+        "host": "localhost:9092"
+    },
+    "service": {
+        "service-name": {
+            "host": "localhost:0000",
+            "get-users": "/api/v1/users"
+        },
+        "service-name1": {
+            "host": "localhost:0001",
+            "get-users": "/api/v1/users"
+        }
+    }
+}
