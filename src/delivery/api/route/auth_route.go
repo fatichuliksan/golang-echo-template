@@ -1,9 +1,9 @@
 package route
 
 import (
-	"project/src/api/handler"
-	"project/src/api/usecase"
+	"project/src/delivery/api/handler"
 	"project/src/repository"
+	"project/src/usecase"
 
 	"github.com/labstack/echo"
 )

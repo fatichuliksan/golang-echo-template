@@ -1,7 +1,7 @@
 package route
 
 import (
-	appMiddleware "project/src/api/middleware"
+	appMiddleware "project/src/delivery/api/middleware"
 	"project/src/helper"
 	"project/src/repository"
 
